@@ -4,7 +4,7 @@ why?
 blockchain randomness is not true random.we can manipulate it by using tools.
 
 # Code
-```soldity
+```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
